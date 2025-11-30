@@ -1,5 +1,5 @@
 def create_codon_dict(file_path):
-    file = open(path, "r")
+    file = open(file_path, "r")
     rows = file.readlines()
     file.close()
     empty_dict = {}
